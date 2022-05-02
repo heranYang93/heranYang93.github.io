@@ -1,15 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "./index.css";
 import "bulma/css/bulma.min.css";
 import App from "./App";
-// import { ModalProvider } from "./state/modal/provider";
+import { ModalProvider } from "./state/modal/provider";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    {/* <ModalProvider> */}
     <App />
-    {/* </ModalProvider> */}
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
