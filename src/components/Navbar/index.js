@@ -23,12 +23,12 @@ export default function Navbar() {
       </div>
 
       <div id="navbarBasicExample" className="navbar-menu">
-        <div className="navbar-start">
-          <a className="navbar-item" href="/">
-            About
-          </a>
+        <div className="navbar-end">
           <a className="navbar-item" href="/">
             Projects
+          </a>
+          <a className="navbar-item" href="/">
+            Resume
           </a>
           <a className="navbar-item" href="/contact">
             Contact

@@ -3,10 +3,11 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+
 // import Portfolio from "./pages/Projects";
 // import Modal from "./pages/Modal";
 // import Resume from "./pages/Resume";
-// import Footer from "./components/Footer";
+import Copyright from "./components/Copyright";
 
 // import { useGlobalContext } from "./providers/GlobalStateProvider";
 
@@ -26,6 +27,7 @@ function App() {
           {/* <Route path="/resume" element={<Resume />} /> */}
           {/* <Route path="*" element={<Home />} /> */}
         </Routes>
+        <Copyright />
       </ErrorBoundary>
     </Router>
   );
