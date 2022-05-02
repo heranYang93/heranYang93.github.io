@@ -1,32 +1,34 @@
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import EmailIcon from "@mui/icons-material/Email";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import {
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+  AiOutlineMail,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 import { BsStackOverflow } from "react-icons/bs";
 
 export const SocialMediaArr = [
   {
     link: "linkedin.com/in/heranyang",
-    icon: <LinkedInIcon />,
+    icon: <AiOutlineLinkedin />,
     description: "LinkedIn",
   },
   {
-    url: "https://github.com/heranYang93",
-    icon: <GitHubIcon />,
+    link: "https://github.com/heranYang93",
+    icon: <AiOutlineGithub />,
     description: "Github",
   },
   {
-    url: "mailto:yang.hrn@gmail.com",
-    icon: <EmailIcon />,
+    link: "mailto:yang.hrn@gmail.com",
+    icon: <AiOutlineMail />,
     description: "Email",
   },
   {
-    url: "https://twitter.com/yang_heran",
-    icon: <TwitterIcon />,
+    link: "https://twitter.com/yang_heran",
+    icon: <AiFillTwitterCircle />,
     description: "Twitter",
   },
   {
-    url: "https://stackoverflow.com/users/14984871/m-daaboul",
+    link: "https://stackoverflow.com/users/14984871/m-daaboul",
     icon: <BsStackOverflow />,
     description: "LinkedIn",
   },

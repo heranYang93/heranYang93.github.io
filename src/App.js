@@ -7,7 +7,6 @@ import Contact from "./pages/Contact";
 // import Portfolio from "./pages/Projects";
 // import Modal from "./pages/Modal";
 // import Resume from "./pages/Resume";
-import Copyright from "./components/Copyright";
 
 // import { useGlobalContext } from "./providers/GlobalStateProvider";
 
@@ -27,7 +26,6 @@ function App() {
           {/* <Route path="/resume" element={<Resume />} /> */}
           {/* <Route path="*" element={<Home />} /> */}
         </Routes>
-        <Copyright />
       </ErrorBoundary>
     </Router>
   );
