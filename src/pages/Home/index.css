@@ -1,0 +1,6 @@
+.hero {
+  padding-top: 10%;
+}
+.hero > * {
+  width: 60%;
+}

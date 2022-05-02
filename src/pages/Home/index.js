@@ -5,19 +5,21 @@ import Image from "../../images/profile.jpg";
 
 const Home = () => {
   return (
-    <section className="hero is-danger is-fullheight">
-      <div className="hero-body">
-        <div className="">
-          <p className="title animate__animated animate__fadeInDown">
-            Hi there! 👋
+    <div className="columns">
+      <div className="column is-12">
+        <section className="hero is-6 is-danger is-fullheight is-flex is-flex-direction-column is-align-items-center is-justify-content-space-around">
+          <figure class="image is-128x128 animate__animated animate__fadeInDown">
+            <img class="is-rounded" src={Image} />
+          </figure>
+
+          <p className="title has-text-centered animate__animated animate__fadeInDown">
+            Hi there! 👋 <span className="subtitle">My name is Heran</span>
           </p>
-          <p className="subtitle animate__animated animate__fadeInDown">
-            My name is Heran
-          </p>
-        </div>
+
+          <Footer />
+        </section>
       </div>
-      <Footer />
-    </section>
+    </div>
   );
 };
 

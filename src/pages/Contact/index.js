@@ -1,22 +1,23 @@
 import React from "react";
-// import { socialMediaLinks } from '../../data';
-// import Form from '../../components/Form';
 import "./index.css";
 
 const Contact = () => {
   return (
     <>
+      <section class="hero is-warning">
+        <div class="hero-body">
+          <p class="title">Contact Me</p>
+          <p className="my-message">Let's have a chat! 😃 </p>
+          <p className="my-message">
+            Please leave your information and I'll get back to you ASAP!
+          </p>
+        </div>
+      </section>
+
       <div className="contact-form-space columns">
         <div className="column is-1"></div>
         <div className="column is-6">
-          <h1 className="contact-me title">Contact Me</h1>
           <br></br>
-          <h2 className="subtitle">
-            <p className="my-message">Sure Let's have a chat! 😃 </p>
-            <p className="my-message">
-              Please leave your information and I'll get back to you ASAP!
-            </p>
-          </h2>
           <div className="field">
             <label className="label">Name</label>
             <div className="control has-icons-left has-icons-right">
@@ -46,10 +47,10 @@ const Contact = () => {
           </div>
           <div className="field is-grouped">
             <div className="control">
-              <button className="button is-primary">Submit</button>
+              <button className="button is-warning">Submit</button>
             </div>
             <div className="control">
-              <button className="button is-primary is-light" href="/">
+              <button className="button is-warning is-light" href="/">
                 Cancel
               </button>
             </div>

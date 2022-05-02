@@ -3,7 +3,7 @@ import { AppData } from "../../Data";
 
 export default function Footer() {
   return (
-    <section className="section-footer is-small">
+    <section className="section-footer is-small animate__animated animate__fadeInUp">
       <div className="columns">
         <div className="column is-2"></div>
         <div className="column has-text-centered">
