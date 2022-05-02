@@ -1,6 +1,6 @@
 import React from "react";
 import ErrorBoundary from "./components/ErrorBoundary";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 // import Contact from "./pages/Contact";
 // import Portfolio from "./pages/Projects";
@@ -18,11 +18,11 @@ function App() {
   return (
     <Router>
       <ErrorBoundary>
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/projects" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Home />} /> */}
         </Routes>
