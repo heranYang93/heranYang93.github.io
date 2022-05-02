@@ -1,16 +1,12 @@
 import * as React from "react";
+import TopLeftImg from "../../images/HY.png";
 
 export default function Navbar() {
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <a className="navbar-item" href="https://bulma.io">
-          <img
-            src="https://bulma.io/images/bulma-logo.png"
-            width="112"
-            height="28"
-            alt="whatev"
-          />
+        <a className="navbar-item" href="/">
+          <img src={TopLeftImg} height="28" alt="whatev" />
         </a>
 
         <a
@@ -28,9 +24,15 @@ export default function Navbar() {
 
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <a className="navbar-item">About</a>
-          <a className="navbar-item">Projects</a>
-          <a className="navbar-item">Contact</a>
+          <a className="navbar-item" href="/">
+            About
+          </a>
+          <a className="navbar-item" href="/">
+            Projects
+          </a>
+          <a className="navbar-item" href="/contact">
+            Contact
+          </a>
         </div>
       </div>
     </nav>
