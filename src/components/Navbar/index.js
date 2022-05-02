@@ -29,7 +29,6 @@ export default function Navbar() {
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
           <a className="navbar-item">About</a>
-
           <a className="navbar-item">Projects</a>
           <a className="navbar-item">Contact</a>
         </div>
