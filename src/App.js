@@ -3,10 +3,9 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-
-// import Portfolio from "./pages/Projects";
+import Projects from "./pages/Projects";
 // import Modal from "./pages/Modal";
-// import Resume from "./pages/Resume";
+import Resume from "./pages/Resume";
 
 // import { useGlobalContext } from "./providers/GlobalStateProvider";
 
@@ -22,9 +21,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/projects" element={<Portfolio />} /> */}
-          {/* <Route path="/resume" element={<Resume />} /> */}
-          {/* <Route path="*" element={<Home />} /> */}
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </ErrorBoundary>
     </Router>

@@ -1,12 +1,13 @@
 import React from "react";
 import "./index.css";
+import Footer from "../../components/Footer";
 
 const Contact = () => {
   return (
     <>
-      <section class="hero is-warning">
-        <div class="hero-body">
-          <p class="title">Contact Me</p>
+      <section className="hero is-warning animate__animated animate__fadeInLeft">
+        <div className="hero-body">
+          <p className="title">Contact Me</p>
           <p className="my-message">Let's have a chat! 😃 </p>
           <p className="my-message">
             Please leave your information and I'll get back to you ASAP!
@@ -14,9 +15,9 @@ const Contact = () => {
         </div>
       </section>
 
-      <div className="contact-form-space columns">
+      <div className="contact-form-space columns animate__animated animate__fadeInRight">
         <div className="column is-1"></div>
-        <div className="column is-6">
+        <div className="column">
           <br></br>
           <div className="field">
             <label className="label">Name</label>
@@ -58,6 +59,8 @@ const Contact = () => {
         </div>
         <div className="column"></div>
       </div>
+
+      <Footer />
     </>
   );
 };

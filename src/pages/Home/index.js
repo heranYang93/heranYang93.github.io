@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="columns">
       <div className="column is-12">
-        <section className="hero is-6 is-danger is-fullheight is-flex is-flex-direction-column is-align-items-center is-justify-content-space-around">
+        <section className="home-hero hero is-6 is-danger is-fullheight is-flex is-flex-direction-column is-align-items-center is-justify-content-space-around">
           <figure class="image is-128x128 animate__animated animate__fadeInDown">
             <img class="is-rounded" src={Image} />
           </figure>

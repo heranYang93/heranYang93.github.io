@@ -1,6 +1,6 @@
-.hero {
+.home-hero {
   padding-top: 10%;
 }
-.hero > * {
+.home-hero > * {
   width: 60%;
 }
