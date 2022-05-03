@@ -1,0 +1,32 @@
+.projects-wrapper {
+  width: 100%;
+}
+
+.card-container {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.main-card-width {
+  width: 80vw;
+  margin: 5%;
+}
+
+.normal-card-width {
+  width: 400px;
+  margin: 1%;
+}
+
+.extra-large {
+  width: 400px;
+  height: 250px;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.link-buttons {
+  margin-left: 10px;
+}
