@@ -9,8 +9,6 @@ My name is Heran 🐵\
 👨‍🎓 I'm currently working on improving my skills in Javascript, HTML, CSS\
 🔭 I'm excited to explore React, ThreeJs, ExpressJs, ReactJs, AWS ...\
 💻 I'm also exploring digital tools in the AEC industry\
-🖌️ Ask me about graphic design, UI/UX\
-🦺 Also ask me about architecture, sustainability, digital twins\
 
 ## Follow me on ...
 
