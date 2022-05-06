@@ -1,5 +1,5 @@
 {
-  "homepage": "http://heranYang93.github.io/heranyang",
+  "homepage": "https://heranYang93.github.io/",
   "name": "heranyang",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,8 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^3.2.3"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -47,7 +48,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "devDependencies": {}
 }
