@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.62f180e7.css",
-    "main.js": "/static/js/main.0014a0a8.js",
+    "main.js": "/static/js/main.81a5fd2d.js",
+    "static/media/eBabylon.gif": "/static/media/eBabylon.bd9b7e1209c9ed491fbc.gif",
     "static/media/ISSExplorer-0.png": "/static/media/ISSExplorer-0.3c13bab53631b9b267e3.png",
     "static/media/weatherDashboard0.gif": "/static/media/weatherDashboard0.aa966f4f28e2b2ebe7c7.gif",
     "static/media/quiz-0.gif": "/static/media/quiz-0.2a6e09bad72f3c6349ea.gif",
@@ -17,10 +18,10 @@
     "static/media/HY.png": "/static/media/HY.0953ca3c2e762998cce5.png",
     "index.html": "/index.html",
     "main.62f180e7.css.map": "/static/css/main.62f180e7.css.map",
-    "main.0014a0a8.js.map": "/static/js/main.0014a0a8.js.map"
+    "main.81a5fd2d.js.map": "/static/js/main.81a5fd2d.js.map"
   },
   "entrypoints": [
     "static/css/main.62f180e7.css",
-    "static/js/main.0014a0a8.js"
+    "static/js/main.81a5fd2d.js"
   ]
 }
