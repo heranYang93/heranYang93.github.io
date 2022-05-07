@@ -12,8 +12,31 @@ const TextEditor1 = require("./resources/textEditor-1.png");
 const Quiz0 = require("./resources/quiz-0.gif");
 const WeatherDashboard = require("./resources/weatherDashboard0.gif");
 const Password = require("./resources/passwordGenerator-0.png");
+const EBabylon = require("./resources/eBabylon.gif");
 
 export const ProjectArr = [
+  {
+    isMain: true,
+    name: "eBabylon",
+    technologyArr: [
+      "React",
+      "MUI",
+      "GraphQL",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Stripe",
+      "Cloudinary",
+      "Node.js",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Git",
+    ],
+    images: [EBabylon],
+    github: "https://github.com/moedaaboul/babylon",
+    deployLink: "https://e-babylon.herokuapp.com/",
+  },
   {
     isMain: true,
     name: "legogram",
@@ -33,20 +56,20 @@ export const ProjectArr = [
     deployLink: "https://legogram.herokuapp.com/",
   },
   {
-    isMain: false,
-    name: "Tech Blog",
-    technologyArr: ["Node.js", "JavaScript", "HTML5", "CSS3", "MySQL", "Bulma"],
-    images: [TechBlog0],
-    github: "https://github.com/heranYang93/tech-blog",
-    deployLink: "https://tech-blog-practise.herokuapp.com",
-  },
-  {
     isMain: true,
     name: "ISS Space Explorer",
     technologyArr: ["JavaScript", "HTML5", "CSS3", "Git"],
     images: [ISS0, ISS1, ISS2],
     github: "https://github.com/heranYang93/go-go-space",
     deployLink: "https://heranyang93.github.io/go-go-space/",
+  },
+  {
+    isMain: false,
+    name: "Tech Blog",
+    technologyArr: ["Node.js", "JavaScript", "HTML5", "CSS3", "MySQL", "Bulma"],
+    images: [TechBlog0],
+    github: "https://github.com/heranYang93/tech-blog",
+    deployLink: "https://tech-blog-practise.herokuapp.com",
   },
   {
     isMain: false,
