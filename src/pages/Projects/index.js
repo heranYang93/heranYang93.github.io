@@ -4,10 +4,12 @@ import Footer from "../../components/Footer";
 
 import { AppData } from "../../Data";
 import { FaGitAlt, FaRegWindowMaximize } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const projectData = AppData.ProjectArr;
 
 const Projects = () => {
+  let navigate = useNavigate();
   return (
     <>
       <section className="column is-12 hero is-link animate__animated animate__fadeInLeft">
@@ -34,7 +36,9 @@ const Projects = () => {
                   <div className="dropdown-item">
                     <button
                       class="link-buttons button is-link is-outlined"
-                      href={singleProject.github}
+                      onClick={() => {
+                        navigate(singleProject.github);
+                      }}
                     >
                       Github
                     </button>
