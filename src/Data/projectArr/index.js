@@ -3,13 +3,13 @@ const placeHolder =
 
 const Lego = require("./resources/Legogram.gif");
 const ISS = require("./resources/ISSExplore.gif");
+const EBabylon = require("./resources/eBabylon.gif");
 const TechBlog0 = require("./resources/techBlog-0.png");
 const TextEditor0 = require("./resources/textEditor-0.png");
 const TextEditor1 = require("./resources/textEditor-1.png");
 const Quiz0 = require("./resources/quiz-0.gif");
 const WeatherDashboard = require("./resources/weatherDashboard0.gif");
 const Password = require("./resources/passwordGenerator-0.png");
-const EBabylon = require("./resources/eBabylon.gif");
 
 export const ProjectArr = [
   {
