@@ -35,12 +35,18 @@ const Projects = () => {
               <div className="dropdown-menu" id="dropdown-menu4" role="menu">
                 <div className="dropdown-content">
                   <div className="dropdown-item">
-                    <button class="link-buttons button is-link is-outlined">
-                      <a href={singleProject.github}>Github</a>
-                    </button>
-                    <button class="link-buttons button is-link is-outlined">
-                      <a href={singleProject.deployLink}>Deployed</a>
-                    </button>
+                    <a
+                      href={singleProject.github}
+                      class="link-buttons button is-link is-outlined"
+                    >
+                      Github
+                    </a>
+                    <a
+                      href={singleProject.deployLink}
+                      class="link-buttons button is-link is-outlined"
+                    >
+                      Deployed
+                    </a>
                   </div>
                 </div>
               </div>
