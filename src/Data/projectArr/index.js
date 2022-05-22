@@ -31,7 +31,7 @@ export const ProjectArr = [
       "Git",
     ],
     images: [EBabylon],
-    github: "https://github.com/moedaaboul/babylon",
+    github: "https://github.com/heranYang93/babylon",
     deployLink: "https://e-babylon.herokuapp.com/",
   },
   {

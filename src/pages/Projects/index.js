@@ -10,6 +10,7 @@ const projectData = AppData.ProjectArr;
 
 const Projects = () => {
   let navigate = useNavigate();
+
   return (
     <>
       <section className="column is-12 hero is-link animate__animated animate__fadeInLeft">
@@ -34,21 +35,11 @@ const Projects = () => {
               <div className="dropdown-menu" id="dropdown-menu4" role="menu">
                 <div className="dropdown-content">
                   <div className="dropdown-item">
-                    <button
-                      class="link-buttons button is-link is-outlined"
-                      onClick={() => {
-                        navigate(singleProject.github);
-                      }}
-                    >
-                      Github
+                    <button class="link-buttons button is-link is-outlined">
+                      <a href={singleProject.github}>Github</a>
                     </button>
-                    <button
-                      class="link-buttons button is-link is-outlined"
-                      onClick={() => {
-                        navigate(singleProject.deployLink);
-                      }}
-                    >
-                      Deployed
+                    <button class="link-buttons button is-link is-outlined">
+                      <a href={singleProject.deployLink}>Deployed</a>
                     </button>
                   </div>
                 </div>
