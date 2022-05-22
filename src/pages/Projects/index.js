@@ -44,7 +44,9 @@ const Projects = () => {
                     </button>
                     <button
                       class="link-buttons button is-link is-outlined"
-                      href={singleProject.deployLink}
+                      onClick={() => {
+                        navigate(singleProject.deployLink);
+                      }}
                     >
                       Deployed
                     </button>

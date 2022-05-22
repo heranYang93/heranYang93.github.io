@@ -11,7 +11,7 @@ const Resume = () => {
           <p className="title">Download my Resume</p>
           <a
             className="button is-rounded is-small"
-            href="https://heranyang93.github.io/Full-stack-developer-portfolio/resources/content/hyResume.pdf"
+            href="https://github.com/heranYang93/heranYang93.github.io/blob/main/public/downloadables/HeranYang.pdf"
             download="HeranYangCV"
           >
             Download
