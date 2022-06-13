@@ -9,7 +9,7 @@ import { BsStackOverflow } from "react-icons/bs";
 
 export const SocialMediaArr = [
   {
-    link: "linkedin.com/in/heranyang",
+    link: "https://www.linkedin.com/in/heranyang/",
     icon: <AiOutlineLinkedin />,
     description: "LinkedIn",
   },
@@ -29,7 +29,7 @@ export const SocialMediaArr = [
     description: "Twitter",
   },
   {
-    link: "https://stackoverflow.com/users/14984871/m-daaboul",
+    link: "https://stackoverflow.com/users/16658028/heran-yang",
     icon: <BsStackOverflow />,
     description: "LinkedIn",
   },

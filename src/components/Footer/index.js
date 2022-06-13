@@ -9,15 +9,15 @@ export default function Footer() {
         <div className="column has-text-centered">
           {AppData.SocialMediaArr.map((singleSocialMediaInfo, index) => {
             return (
-              <a>
-                <icon
+              <icon>
+                <a
                   className="icon is-large"
                   alt={singleSocialMediaInfo.description}
                   href={singleSocialMediaInfo.link}
                 >
                   {singleSocialMediaInfo.icon}
-                </icon>
-              </a>
+                </a>
+              </icon>
             );
           })}
         </div>
