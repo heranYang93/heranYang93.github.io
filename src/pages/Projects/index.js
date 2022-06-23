@@ -37,13 +37,13 @@ const Projects = () => {
                   <div className="dropdown-item">
                     <a
                       href={singleProject.github}
-                      class="link-buttons button is-link is-outlined"
+                      className="link-buttons button is-link is-outlined"
                     >
                       Github
                     </a>
                     <a
                       href={singleProject.deployLink}
-                      class="link-buttons button is-link is-outlined"
+                      className="link-buttons button is-link is-outlined"
                     >
                       Deployed
                     </a>

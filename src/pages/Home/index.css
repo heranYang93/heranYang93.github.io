@@ -1,10 +1,23 @@
 .home-hero {
-  padding-top: 10%;
+  padding-top: 150px;
+  margin-bottom: 0;
 }
+
+.columns {
+  height: 100vh;
+  padding: 0;
+}
+
 .home-hero > * {
   width: 60%;
 }
 
 .intro {
   width: 50%;
+  height: 100px;
+}
+
+.profile_picture {
+  width: 200px;
+  border-radius: 100px;
 }
