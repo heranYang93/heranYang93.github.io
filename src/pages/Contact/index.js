@@ -1,13 +1,24 @@
 import React from "react";
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import "./index.css";
 import Footer from "../../components/Footer";
 import { testEmail, testName, testMessage } from "../../utils/helper";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [userName, setUsername] = useState("");
   const [message, setMessage] = useState("");
+  const [bannerMessage, setBannerMessage] = useState({
+    line1: "Contact Me",
+    line2: "Let's have a chat! 😃 ",
+    line3: "Please leave your information and I'll get back to you ASAP!",
+  });
+
+  const [buttonState, setButtonState] = useState({
+    submit: "button is-warning",
+    cancel: "button is-warning is-light",
+  });
 
   const [emailFormat, setEmailFormat] = useState("input is-warning");
   const [userFormat, setUserFormat] = useState("input is-warning");
@@ -18,6 +29,50 @@ const Contact = () => {
     "is-Hidden",
     "",
   ]);
+  const [bannerFormat, setBannerFormat] = useState(
+    "hero is-warning animate__animated animate__fadeInLeft"
+  );
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setButtonState({
+      submit: "button is-warning is-loading",
+      cancel: "button is-warning is-light",
+    });
+    emailjs
+      .send(
+        "service_21vnf6j",
+        "template_p1jdo5i",
+        { email, userName, message },
+        "ffYuE6Jj7XIvGaRJj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setEmail("");
+          setUsername("");
+          setMessage("");
+          setBannerFormat(
+            "hero is-primary animate__animated animate__fadeInLeft"
+          );
+          setBannerMessage({
+            line1: "Message Sent!",
+            line2: "",
+            line3: "I'll get in touch with you shortly!",
+          });
+          setEmailFormat("input is-primary");
+          setUserFormat("input is-primary");
+          setMessageFormat("input is-primary");
+          setButtonState({
+            submit: "button is-primary",
+            cancel: "button is-primary",
+          });
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   // console.log("email", email, "userName", userName, "message", message);
   const handleChange = (e) => {
@@ -32,6 +87,12 @@ const Contact = () => {
     } else if (inputType === "message") {
       setMessage(inputValue);
     }
+  };
+
+  const clearMessage = (e) => {
+    setEmail("");
+    setUsername("");
+    setMessage("");
   };
 
   const handleBlur = (e) => {
@@ -62,13 +123,11 @@ const Contact = () => {
 
   return (
     <>
-      <section className="hero is-warning animate__animated animate__fadeInLeft">
+      <section className={bannerFormat}>
         <div className="hero-body">
-          <p className="title">Contact Me</p>
-          <p className="my-message">Let's have a chat! 😃 </p>
-          <p className="my-message">
-            Please leave your information and I'll get back to you ASAP!
-          </p>
+          <p className="title">{bannerMessage.line1}</p>
+          <p className="my-message">{bannerMessage.line2}</p>
+          <p className="my-message">{bannerMessage.line3}</p>
         </div>
       </section>
 
@@ -131,10 +190,12 @@ const Contact = () => {
           </div>
           <div className="last-buttons field is-grouped">
             <div className="control">
-              <button className="button is-warning">Submit</button>
+              <button className={buttonState.submit} onClick={sendEmail}>
+                Submit
+              </button>
             </div>
             <div className="control">
-              <button className="button is-warning is-light" href="/">
+              <button className={buttonState.cancel} onClick={clearMessage}>
                 Cancel
               </button>
             </div>
