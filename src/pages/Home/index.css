@@ -4,7 +4,6 @@
 }
 
 .columns {
-  height: 100vh;
   padding: 0;
 }
 
@@ -13,11 +12,47 @@
 }
 
 .intro {
-  width: 50%;
+  width: 100vw;
   height: 100px;
+  position: absolute;
+  top: 65vh;
 }
 
 .profile_picture {
-  width: 200px;
-  border-radius: 100px;
+  width: 250px;
+  border-radius: 125px;
+  position: absolute;
+  top: 30vh;
+}
+
+.large-hi {
+  display: block;
+  position: absolute;
+  top: 60vh;
+}
+
+.small-hi {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .profile_picture {
+    width: 150px;
+    border-radius: 125px;
+    position: absolute;
+    top: 15vh;
+  }
+  .large-hi {
+    display: none;
+  }
+
+  .small-hi {
+    display: block;
+    position: absolute;
+    top: 45vh;
+  }
+
+  .intro {
+    top: 60vh;
+  }
 }

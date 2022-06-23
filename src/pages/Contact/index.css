@@ -10,3 +10,9 @@
 .warning-message {
   color: #f1948a;
 }
+
+.section-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

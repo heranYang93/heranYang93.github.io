@@ -20,7 +20,7 @@ const Resume = () => {
       </section>
 
       <br></br>
-      <section className="animate__animated animate__slideInUp">
+      <section className="skill_list animate__animated animate__slideInUp">
         {AppData.SkillArr.map((singleSkillData) => {
           return (
             <>
@@ -49,6 +49,7 @@ const Resume = () => {
           );
         })}
       </section>
+      <div className="placeHolder"></div>
       <Footer />
     </>
   );

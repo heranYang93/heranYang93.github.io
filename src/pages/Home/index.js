@@ -13,9 +13,18 @@ const Home = () => {
             className="profile_picture animate__animated animate__fadeInDown"
             src={Image}
           />
-          <p className="title is-centered has-text-centered animate__animated animate__fadeInDown">
+          <p className="large-hi title is-centered has-text-centered animate__animated animate__fadeInDown">
             Hi there! 👋 <span className="subtitle">My name is Heran</span>
           </p>
+
+          <div className="small-hi">
+            <p className="title is-centered has-text-centered animate__animated animate__fadeInDown">
+              Hi there! 👋
+            </p>
+            <p className="subtitle is-centered has-text-centered animate__animated animate__fadeInDown">
+              My name is Heran
+            </p>
+          </div>
           <Intro />
 
           <Footer />
