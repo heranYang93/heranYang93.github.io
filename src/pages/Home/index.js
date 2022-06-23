@@ -26,9 +26,8 @@ const Home = () => {
             </p>
           </div>
           <Intro />
-
-          <Footer />
         </section>
+        <Footer />
       </div>
     </div>
   );

@@ -1,5 +1,11 @@
 .section-footer {
   position: absolute;
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
   bottom: 0;
+}
+
+.social-media-banner {
+  width: 100%;
 }

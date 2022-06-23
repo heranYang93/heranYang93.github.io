@@ -4,7 +4,7 @@ import { AppData } from "../../Data";
 export default function Footer() {
   return (
     <section className="section-footer is-small animate__animated animate__fadeInUp">
-      <div className="has-text-centered">
+      <div className="social-media-banner has-text-centered">
         {AppData.SocialMediaArr.map((singleSocialMediaInfo, index) => {
           return (
             // <icon >

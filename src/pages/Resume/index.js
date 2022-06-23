@@ -24,7 +24,7 @@ const Resume = () => {
         {AppData.SkillArr.map((singleSkillData) => {
           return (
             <>
-              <section className="columns">
+              <section className="large-display columns">
                 <br></br>
                 <div className="column is-3"></div>
                 <div className="column is-1 content is-small has-text-centered">
@@ -44,6 +44,19 @@ const Resume = () => {
                   ></progress>
                 </div>
                 <br></br>
+              </section>
+
+              <section className="small-display columns is-mobile">
+                <br></br>
+                <div className="column is-5 content is-small has-text-left">
+                  {singleSkillData.type}
+                </div>
+                <div className="column is-2 has-text-centered">
+                  {singleSkillData.icon}
+                </div>
+                <div className="column is-5 content is-small has-text-right">
+                  {singleSkillData.technology}
+                </div>
               </section>
             </>
           );

@@ -11,8 +11,9 @@
   color: #f1948a;
 }
 
-.section-footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+@media screen and (max-width: 768px) {
+  .field {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 }

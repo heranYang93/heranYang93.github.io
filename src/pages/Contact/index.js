@@ -129,7 +129,7 @@ const Contact = () => {
               ></textarea>
             </div>
           </div>
-          <div className="field is-grouped">
+          <div className="last-buttons field is-grouped">
             <div className="control">
               <button className="button is-warning">Submit</button>
             </div>
