@@ -19,8 +19,8 @@
 }
 
 .profile_picture {
-  width: 250px;
-  border-radius: 125px;
+  width: 20vh;
+  border-radius: 20vh;
   position: absolute;
   top: 30vh;
 }
