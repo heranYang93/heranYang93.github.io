@@ -7,13 +7,3 @@
 .placeHolder {
   height: 40px;
 }
-
-@media screen and (max-width: 768px) {
-  .large-display {
-    display: none;
-  }
-
-  .small-display {
-    display: block;
-  }
-}

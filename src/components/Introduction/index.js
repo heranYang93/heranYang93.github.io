@@ -11,7 +11,7 @@ const introLiners = [
   "I wish to further my tech skill both in front-end and back-end",
 ];
 
-const [cycle, disappear, changeContent] = [8, 6, 7];
+const [cycle, disappear, changeContent] = [5, 3, 4];
 
 const defaultIntro = (
   <p className="intro column subtitle is-6 has-text-centered animate__animated animate__fadeInDown">
