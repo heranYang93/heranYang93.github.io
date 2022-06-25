@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.62f180e7.css",
-    "main.js": "/static/js/main.8acf9c84.js",
+    "main.css": "/static/css/main.b40c309b.css",
+    "main.js": "/static/js/main.6cd47783.js",
     "static/media/ISSExplore.gif": "/static/media/ISSExplore.d90869a1aa15ecf7f27b.gif",
     "static/media/Legogram.gif": "/static/media/Legogram.c7b1d50dcb26c49b6458.gif",
     "static/media/eBabylon.gif": "/static/media/eBabylon.bd9b7e1209c9ed491fbc.gif",
@@ -10,15 +10,15 @@
     "static/media/techBlog-0.png": "/static/media/techBlog-0.e6439bb40394bd618182.png",
     "static/media/textEditor-1.png": "/static/media/textEditor-1.77a2e316b95fac351bb6.png",
     "static/media/textEditor-0.png": "/static/media/textEditor-0.fb616c8a485e5c726162.png",
-    "static/media/profile.jpg": "/static/media/profile.faaa17d7bae01623093f.jpg",
     "static/media/passwordGenerator-0.png": "/static/media/passwordGenerator-0.aa25cbf89939def02f6b.png",
+    "static/media/profile.jpg": "/static/media/profile.cffd1d390ce9800f3620.jpg",
     "static/media/HY.png": "/static/media/HY.0953ca3c2e762998cce5.png",
     "index.html": "/index.html",
-    "main.62f180e7.css.map": "/static/css/main.62f180e7.css.map",
-    "main.8acf9c84.js.map": "/static/js/main.8acf9c84.js.map"
+    "main.b40c309b.css.map": "/static/css/main.b40c309b.css.map",
+    "main.6cd47783.js.map": "/static/js/main.6cd47783.js.map"
   },
   "entrypoints": [
-    "static/css/main.62f180e7.css",
-    "static/js/main.8acf9c84.js"
+    "static/css/main.b40c309b.css",
+    "static/js/main.6cd47783.js"
   ]
 }
