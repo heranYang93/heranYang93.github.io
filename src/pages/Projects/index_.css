@@ -1,0 +1,58 @@
+.projects-wrapper {
+  width: 100%;
+}
+
+.card-container {
+  margin-top: 5vh;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-container > * {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 60%;
+  align-self: flex-start;
+}
+
+.main-card {
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 20px;
+  background-color: aqua;
+}
+
+.normal-card {
+  width: 47%;
+  margin-bottom: 20px;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+  .normal-card {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: aqua;
+  }
+}
+
+.extra-large {
+  width: 400px;
+  height: 250px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  width: 100%;
+  position: relative;
+  top: -45%;
+}
+
+.link-buttons {
+  margin-left: 10px;
+}
