@@ -31,7 +31,7 @@ export default function MainProject({ data }) {
         </section>
       </section>
       <section className="main-card-title">
-        <p className="title is-4">{data.name}</p>
+        <p className="subtitle is-5">{data.name}</p>
       </section>
       <section className="main-card-intro">
         <p className="is-size-7">{data.description}</p>

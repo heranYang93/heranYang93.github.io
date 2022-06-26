@@ -48,7 +48,6 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           setEmail("");
           setUsername("");
           setMessage("");

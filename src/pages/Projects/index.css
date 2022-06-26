@@ -141,10 +141,12 @@
     height: min-content;
   }
   .imageWrapper {
+    height: 100%;
     width: 90vw;
   }
   .main-card-image {
-    height: fit-content;
+    height: 200px;
+    align-self: center;
   }
   .main-card-link-wrapper {
     width: 100%;
@@ -167,13 +169,13 @@
 
   .main-card-title {
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-left: 0;
   }
 
   .main-card-intro {
+    margin-top: 0px;
     width: 100%;
     padding-left: 0;
   }
@@ -187,8 +189,6 @@
   margin-right: 20px;
   padding: 20px;
   margin-bottom: 50px;
-  border: 2px solid hsl(0, 0%, 86%);
-  border-radius: 25px;
 }
 @media screen and (max-width: 760px) {
   .normal-card {
@@ -197,7 +197,6 @@
     height: auto;
     margin: 20px;
     padding: 20px;
-    border-radius: 10px;
   }
 }
 
