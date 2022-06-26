@@ -1,24 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.b40c309b.css",
-    "main.js": "/static/js/main.6cd47783.js",
+    "main.css": "/static/css/main.78f46893.css",
+    "main.js": "/static/js/main.a5898c6f.js",
     "static/media/ISSExplore.gif": "/static/media/ISSExplore.d90869a1aa15ecf7f27b.gif",
     "static/media/Legogram.gif": "/static/media/Legogram.c7b1d50dcb26c49b6458.gif",
-    "static/media/eBabylon.gif": "/static/media/eBabylon.bd9b7e1209c9ed491fbc.gif",
+    "static/media/ISSExplorer-0.png": "/static/media/ISSExplorer-0.3c13bab53631b9b267e3.png",
     "static/media/weatherDashboard0.gif": "/static/media/weatherDashboard0.aa966f4f28e2b2ebe7c7.gif",
     "static/media/quiz-0.gif": "/static/media/quiz-0.2a6e09bad72f3c6349ea.gif",
+    "static/media/ISSExplorer-2.png": "/static/media/ISSExplorer-2.5847d9dc39025c81fc8a.png",
+    "static/media/legogram-1.png": "/static/media/legogram-1.cd0b8b5ada62bf463573.png",
+    "static/media/eBabylon-2.png": "/static/media/eBabylon-2.e1024ebbc18d95413a7b.png",
+    "static/media/eBabylon-0.png": "/static/media/eBabylon-0.baab74e2996f6e7d49ee.png",
+    "static/media/eBabylon-3.png": "/static/media/eBabylon-3.2108910232168cc294a1.png",
+    "static/media/ISSExplorer-1.png": "/static/media/ISSExplorer-1.f6ef37165883e9194c5f.png",
+    "static/media/legogram-0.png": "/static/media/legogram-0.520e89a5a03b02482dbe.png",
+    "static/media/eBabylon-5.png": "/static/media/eBabylon-5.a41b82473e87a5ad20f7.png",
+    "static/media/eBabylon-4.png": "/static/media/eBabylon-4.d8928843195096b41776.png",
     "static/media/techBlog-0.png": "/static/media/techBlog-0.e6439bb40394bd618182.png",
     "static/media/textEditor-1.png": "/static/media/textEditor-1.77a2e316b95fac351bb6.png",
     "static/media/textEditor-0.png": "/static/media/textEditor-0.fb616c8a485e5c726162.png",
+    "static/media/eBabylon-1.png": "/static/media/eBabylon-1.566e8ad70b3e9dd078c3.png",
     "static/media/passwordGenerator-0.png": "/static/media/passwordGenerator-0.aa25cbf89939def02f6b.png",
     "static/media/profile.jpg": "/static/media/profile.cffd1d390ce9800f3620.jpg",
     "static/media/HY.png": "/static/media/HY.0953ca3c2e762998cce5.png",
     "index.html": "/index.html",
-    "main.b40c309b.css.map": "/static/css/main.b40c309b.css.map",
-    "main.6cd47783.js.map": "/static/js/main.6cd47783.js.map"
+    "main.78f46893.css.map": "/static/css/main.78f46893.css.map",
+    "main.a5898c6f.js.map": "/static/js/main.a5898c6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b40c309b.css",
-    "static/js/main.6cd47783.js"
+    "static/css/main.78f46893.css",
+    "static/js/main.a5898c6f.js"
   ]
 }
