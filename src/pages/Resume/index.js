@@ -14,7 +14,7 @@ function Resume() {
           <p className="title">Download my Resume</p>
           <a
             className="button is-rounded is-small"
-            href="https://github.com/heranYang93/heranYang93.github.io/raw/main/public/downloadables/HeranYang.pdf"
+            href="https://github.com/heranYang93/heranYang93.github.io/raw/main/public/downloadables/heranYang.pdf"
             download="HeranYangCV"
           >
             Download
