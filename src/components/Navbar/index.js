@@ -40,6 +40,11 @@ export default function Navbar() {
       <aside className={navbarBurgerState.menu_display}>
         <ul className="menu-list">
           <li>
+            <a className="navbar-item" href="mailto:yang.hrn@gmail.com">
+              yang.hrn@gmail.com
+            </a>
+          </li>
+          <li>
             <a className="navbar-item" href="/projects">
               Projects
             </a>
@@ -59,6 +64,9 @@ export default function Navbar() {
 
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-end">
+          <a className="navbar-item" href="mailto:yang.hrn@gmail.com">
+            yang.hrn@gmail.com
+          </a>
           <a className="navbar-item" href="/projects">
             Projects
           </a>
